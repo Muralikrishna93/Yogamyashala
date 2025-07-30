@@ -11,11 +11,11 @@ body {
 
 /* Navbar styles */
 
-.head{
+.headmk{
     border: 1px solid #e2e5e1;
 }
 
-.navbar {
+.navbarmk {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,7 +25,7 @@ body {
   
 }
 
-.nav-item {
+.nav-itemmk {
   display: flex;
   align-items: center;
   gap: 6px;
@@ -33,12 +33,12 @@ body {
   font-weight: 500;
 }
 
-.nav-item:hover{
+.nav-itemmk:hover{
     transform: scale(1.1);
     transition:ease;
 }
 
-.nav-item a {
+.nav-itemmk a {
   text-decoration: none;
   color: #3a3a3a;
   display: flex;
@@ -47,7 +47,7 @@ body {
   transition: color 0.3s;
 }
 
-.nav-item.active a {
+.nav-itemmk.activemk a {
   background-color: #edf0ec;
   padding: 8px 16px;
   border-radius: 24px;
@@ -55,20 +55,20 @@ body {
   color: #2b3d33;
 }
 
-.nav-item a:hover {
+.nav-itemmk a:hover {
   padding: 8px 16px;
   background-color: #edf0ec;
   border-radius: 30px;
 }
 
-.logo {
+.logomk {
   gap: 8px;
   font-size: 20px;
   font-weight: 600;
   color: #2b3d33;
 }
 
-.logo-icon {
+.logo-iconmk {
   background: linear-gradient(135deg, #4c9baf, #1b6578);
   color: #f9c64d;
   border-radius: 50%;
@@ -79,7 +79,7 @@ body {
   justify-content: center;
 }
 
-.mainlogo{
+.mainlogomk{
   font-size: 24px;
   font-weight: 750;
   background: linear-gradient(to right, #3b5d4c, #0077b6);
@@ -87,7 +87,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.trial-btn button {
+.trial-btnmk button {
   background-color: #2b3d33;
   color: white;
   font-weight: 600;
@@ -99,29 +99,29 @@ body {
   transition: background-color 0.3s;
 }
 
-.trial-btn button:hover {
+.trial-btnmk button:hover {
   background-color: #0b4529;
 }
 
-.navbar > .nav-item {
+.navbarmk > .nav-itemmk {
   flex: 1;
   justify-content: center;
 }
 
 /* welcome styles */
 
-.welcome-section {
+.welcome-sectionmk {
   padding: 40px 60px;
   margin: 0px 60px;
 }
 
-.welcome-text h1 {
+.welcome-textmk h1 {
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 8px;
 }
 
-.welcome-section .welcome-text h1{
+.welcome-sectionmk .welcome-textmk h1{
   font-size: 32px;
   font-weight: 750;
   background: linear-gradient(to right, #3b5d4c, #0077b6);
@@ -129,24 +129,24 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.welcome-text h1  {
+.welcome-textmk h1  {
   margin-left: 10px;
   color: #224130;
 }
 
-.welcome-text p {
+.welcome-textmk p {
   font-size: 16px;
   color: #1f4a3a;
   margin-bottom: 32px;
 }
 
-.stats-container {
+.stats-containermk {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
 }
 
-.stat-card {
+.stat-cardmk {
   background: white;
   flex: 1;
   min-width: 220px;
@@ -161,17 +161,17 @@ body {
   gap: 16px;
 }
 
-.stat-card:hover {
+.stat-cardmk:hover {
   transform: scale(1.01);
 }
 
-.left {
+.leftmk {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.icon-box {
+.icon-boxmk {
   padding: 10px;
   border-radius: 12px;
   color: white;
@@ -179,34 +179,34 @@ body {
   margin-bottom: 12px;
 }
 
-.dark {
+.darkmk {
   background-color: #394d40;
 }
 
-.blue {
+.bluemk {
   background-color: #1882a8;
 }
 
-.pink {
+.pinkmk {
   background-color: #ed4694;
 }
 
-.brown {
+.brownmk {
   background-color: #996633;
 }
 
-.left h2 {
+.leftmk h2 {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 4px;
 }
 
-.left p {
+.leftmk p {
   font-size: 14px;
   color: #6b7b75;
 }
 
-.right {
+.rightmk {
   color: #6b7b75;
   font-size: 14px;
   margin-left: auto;
@@ -215,14 +215,14 @@ body {
 
 /* footer styles */
 
-.footer {
+.footermk {
   background-color: #2b3d33;
   color: #e8e8e8;
   padding: 40px 60px;
   
 }
 
-.footer-top {
+.footer-topmk {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -232,7 +232,7 @@ body {
   height: 300px;
 }
 
-.footer-brand {
+.footer-brandmk {
   display: flex;
   flex-direction: column;
   max-width: 400px;
@@ -240,13 +240,13 @@ body {
   row-gap: 10px;
 }
 
-.logo {
+.logomk {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.logo-icon {
+.logo-iconmk {
   background: linear-gradient(135deg, #4c9baf, #1b6578);
   color: #f9c64d;
   border-radius: 50%;
@@ -254,29 +254,29 @@ body {
   font-size: 18px;
 }
 
-.footer-brand p {
+.footer-brandmk p {
   font-size: 14px;
   margin: 12px 0;
   color: #d0d0d0;
 }
 
-.contact{
+.contactmk{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.contact p {
+.contactmk p {
   margin: 6px 0;
   font-size: 16px;
   color: #ccc;
 }
 
-.contact i {
+.contactmk i {
   margin-right: 10px;
 }
 
-.footer-links {
+.footer-linksmk {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -284,30 +284,30 @@ body {
   flex: 1;
 }
 
-.footer-links h4 {
+.footer-linksmk h4 {
   font-size: 18px;
   margin-bottom: 10px;
   color: #fff;
 }
 
-.footer-links ul {
+.footer-linksmk ul {
   list-style: none;
   padding: 0;
   font-size: 14px;
   color: #d0d0d0;
 }
 
-.footer-links ul li {
+.footer-linksmk ul li {
   margin-bottom: 8px;
   font-size: 16px;
 }
 
-.footer-links ul li a{
+.footer-linksmk ul li a{
   color: #d0d0d0;
   text-decoration: none;
 }
 
-.footer-links ul li a:hover{
+.footer-linksmk ul li a:hover{
   color: #fff;
   text-decoration: underline;
 }
@@ -318,7 +318,7 @@ hr {
   margin: 40px 90px 30px;
 }
 
-.footer-bottom {
+.footer-bottommk {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -326,24 +326,24 @@ hr {
   margin: 0px 80px;
 }
 
-.subscribe-text h1 {
+.subscribe-textmk h1 {
   color: #fff;
   font-size: 22px;
   margin-bottom: 8px;
   font-weight: 700;
 }
 
-.subscribe-text p {
+.subscribe-textmk p {
   font-size: 16px;
   color: #c5c5c5;
 }
 
-.subscribe-form {
+.subscribe-formmk {
   display: flex;
   gap: 10px;
 }
 
-.subscribe-form input {
+.subscribe-formmk input {
   padding: 18px 18px;
   border: none;
   border-radius: 999px;
@@ -352,12 +352,12 @@ hr {
   width: 430px;
 }
 
-.subscribe-form input::placeholder {
+.subscribe-formmk input::placeholder {
   color: #a6a6a6;
   font-size: 16px;
 }
 
-.subscribe-form button {
+.subscribe-formmk button {
   padding: 12px 24px;
   border: none;
   border-radius: 999px;
@@ -370,31 +370,31 @@ hr {
   
 }
 
-.subscribe-form button:hover{
+.subscribe-formmk button:hover{
   transform: scale(1.05);
   transition: ease-out
 }
 
-.footer-base {
+.footer-basemk {
   text-align: center;
   margin-top: 40px;
   color: #ccc;
   margin: 0px 90px;
 }
 
-.footer-note{
+.footer-notemk{
   display: flex;
   justify-content: space-between;
   flex: 1;
 }
 
 
-.footer-note .heart-icon {
+.footer-notemk .heart-iconmk {
   color: #ff6b6b;
   margin: 0 5px;
 }
 
-.footer-note .emoji {
+.footer-notemk .emojimk {
   margin-left: 10px;
   font-size: 22px;
   display: flex;
@@ -403,66 +403,66 @@ hr {
   gap: 20px;
 }
 
-.footer-note .emoji .book:hover{
+.footer-notemk .emojimk .bookmk:hover{
   transform: scale(1.2);
   transition: ease;
   cursor: pointer;
 }
 
-.footer-note .emoji .chick:hover{
+.footer-notemk .emojimk .chickmk:hover{
   transform: scale(1.2);
   transition: ease;
   cursor: pointer;
 }
 
-.footer-note .emoji .cam:hover{
+.footer-notemk .emojimk .cammk:hover{
   transform: scale(1.2);
   transition: ease;
   cursor: pointer;
 }
 
-.footer-note .emoji .tv:hover{
+.footer-notemk .emojimk .tvmk:hover{
   transform: scale(1.2);
   transition: ease;
   cursor: pointer;
 }
 
 
-.footer-note .copyright {
+.footer-notemk .copyrightmk {
   margin-top: 4px;
 }
 
-.footer-base hr {
+.footer-basemk hr {
   border: none;
   border-top: 1px solid #3d4b45;
   margin: 24px 0;
 }
 
-.app-download-section {
+.app-download-sectionmk {
   text-align: center;
 }
 
-.app-download-section h3 {
+.app-download-sectionmk h3 {
   color: #fff;
   font-size: 20px;
   margin-bottom: 8px;
 }
 
-.app-download-section p {
+.app-download-sectionmk p {
   font-size: 16px;
   color: #c5c5c5;
   margin-bottom: 20px;
 }
 
-.store-buttons {
+.store-buttonsmk {
   display: flex;
   justify-content: center;
   gap: 16px;
   flex-wrap: wrap;
 }
 
-.app-store-btn, 
-.google-play-btn {
+.app-store-btnmk, 
+.google-play-btnmk {
   background: #000;
   color: white;
   padding: 12px 20px;
@@ -474,17 +474,17 @@ hr {
   font-size: 14px;
 }
 
-.app-store-btn i,
-.google-play-btn i {
+.app-store-btnmk i,
+.google-play-btnmk i {
   font-size: 20px;
 }
 
-.app-store-btn:hover{
+.app-store-btnmk:hover{
   transform: scale(1.05);
   background-color: #23232f;
 }
 
-.google-play-btn:hover{
+.google-play-btnmk:hover{
   transform: scale(1.05);
   background-color: #23232f;
 }
