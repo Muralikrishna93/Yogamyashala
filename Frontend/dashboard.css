@@ -216,6 +216,192 @@ body {
   margin-left: auto;
 }
 
+/* Recommended section styles */
+
+.main-containermk {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  max-width: 1260px;
+  margin: 0px 120px;
+}
+
+.left-sectionmk {
+  flex: 2;
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.left-sectionmk h2{
+  color: #3f3f40;
+}
+
+.right-sectionmk {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.spannmk{
+  display: flex;
+  justify-content: space-between;
+}
+
+.recommended-cardmk {
+  background: linear-gradient(to right, #4e6f62, #1098db);
+  color: white;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+  border: 1px solid rgb(84, 83, 83);
+}
+
+.recommended-cardmk .textmk{
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.recommended-cardmk button {
+  background: #0fa4f4;
+  color: white;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 24px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  opacity: 0.7;
+}
+
+.recommended-cardmk button:hover{
+  opacity: 1;
+}
+
+.class-listmk .class-itemmk {
+  background: #f4f7f7;
+  border-radius: 10px;
+  padding: 12px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.class-itemmk p {
+  font-size: 13px;
+  color: #555;
+  margin: 5px 0 0;
+}
+
+.upcomingmk, .progressmk {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.upcomingmk .green-bordermk{
+  border-left: 3px solid rgb(1, 159, 1);
+  padding: 0px 10px;
+}
+
+.upcomingmk .timingsmk{
+  margin-top: 10px;
+}
+
+.upcomingmk ul {
+  list-style: none;
+  padding: 0;
+}
+
+.upcomingmk li {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.upcomingmk button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(188, 186, 186);
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.progressmk .progress-itemmk {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.progress-itemmk span{
+  font-size: 13px;
+  background: linear-gradient(to right, #0d492b, #049aeb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.progress-itemmk div {
+  background: #e3e9e9;
+  border-radius: 10px;
+  flex: 1;
+  margin: 0 10px;
+  height: 6px;
+  overflow: hidden;
+}
+
+.progress-itemmk div > div {
+  background: #1098db;
+  height: 100%;
+}
+
+.quick-actions-cardmk {
+  background: white;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  max-width: 390px;
+  position: relative;
+  left: 990px;
+}
+
+.quick-actions-cardmk h3 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.quick-actions-listmk {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.quick-actions-listmk li {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin-bottom: 18px;
+  color: #1e1e1e;
+}
+
+.quick-actions-listmk li span {
+  margin-left: 10px;
+}
+
 
 /* footer styles */
 
